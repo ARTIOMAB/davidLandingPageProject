@@ -1,0 +1,82 @@
+.about-container{
+    width: 90%;
+    margin: auto;
+}
+.heading-image-profile-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+.background-image{
+    width: 100%;
+    margin-bottom: -25px;
+    margin-top: -10px;
+}
+.heading-image-profile-container h2 {
+    /* padding-left: 5%; */
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+    font-weight: 800;
+    line-height: 27px;
+
+}
+.heading-image-profile-container img {
+  width: 94%;
+  border-radius: 16px;
+}
+ .about-first-section{
+    width: 98%;
+    padding-left: 5%;
+    font: 400 16px / 21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 24px;
+    color: #c2c2c2;
+}
+.background-dust{
+    width: 90%;
+    height: 50vh;
+    position: absolute;
+}
+.about-second-section{
+    padding-left: 5%;
+    line-height: 24px;
+    color: #c2c2c2;
+    font: 400 16px / 21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.about-buttons-section{
+    padding-left: 5%;
+    font: 400 16px / 21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 24px;
+    color: #c2c2c2;
+}
+.about-button-section-header{
+    padding-left: 5%;
+    font: 400 16px / 21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
+    line-height: 24px;
+    color: #c2c2c2;
+}
+.about-button-section-header h3{
+    font-size: 1.7em;
+    text-align: left;
+    letter-spacing: -1px;
+    line-height:24px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+
+.about-button-box{
+    padding-top: 4%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+

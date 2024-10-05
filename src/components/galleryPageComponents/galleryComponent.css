@@ -1,0 +1,11 @@
+.bootstrap-carousel-container {
+    overflow: hidden;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.bootstrap-carousel-container img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}

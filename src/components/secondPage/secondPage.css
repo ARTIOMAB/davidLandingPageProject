@@ -1,0 +1,54 @@
+.second-page-container{
+    width: 100%;
+    background: linear-gradient(to bottom, var(--Black-BG, #201731), black);
+    height: 100%;
+    box-shadow: #201731;
+}
+.main-section{
+    width: 90%;
+    margin: auto;
+}
+
+.first-section{
+    font-size: 16px;
+    color: #c2c2c2;
+}
+
+.marker-sentence-opening-second-page{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: whitesmoke;
+    letter-spacing: -1px;
+    padding-bottom: 25px;
+}
+
+.second-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5vh;
+}
+.second-section img{
+    width: 100%;
+}
+
+.marker-sentence-in-list{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.buttons-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

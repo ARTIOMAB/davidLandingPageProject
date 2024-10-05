@@ -1,0 +1,61 @@
+.gallery-page-container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000000 0%, #0A0118 80%);
+
+    
+}
+.gallery-page-child-container{
+    width: 90%;
+    margin: auto;
+
+}
+.gallery-container h3{
+    font-size: 1.7em;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 32px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    /* background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
+    -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    font-weight: 600;
+}   
+
+.first-sentence h3{
+    font-size: 2em;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+    text-align: left;
+    margin-top: 4vh;
+    background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 26px;
+    font-weight: 700;
+    width: 90%;
+    margin: auto;
+}
+.galaxy-image{
+    width: 100%;
+    padding-top: 10px;
+    position:static;
+}
+.galley-content{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 4%;
+    padding-bottom: 20px;
+    font: 400 16px/21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
+    color: #c2c2c2;
+
+}
+.second-sentence{
+font-size: 1.3rem;
+font-weight: 800;
+padding-left: 4%;
+font-size: 20px;
+color: #c2c2c2;
+padding-bottom: 6vh;
+}
