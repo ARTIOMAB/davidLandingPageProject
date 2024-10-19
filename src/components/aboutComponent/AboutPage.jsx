@@ -1,20 +1,13 @@
 import React from 'react'
 import "./aboutPage.css"
-import Profile from "../../assets/tamarProfile.jpg"
-import Background from "../../assets/headerBackground.png"
+import Profile from "../../assets/tamarProfile2.jpg"
 import Dust from "../../assets/dust.png"
 
 function CourseDetails() {
     return (
         <>
+
             <div className='about-container'>
-
-                <div className='background-container'>
-                    <img src={Background}
-                        className='background-image'
-                        alt="The image was not found" />
-                </div>
-
                 <div className="heading-image-profile-container">
                     <h2>Приятно познакомиться Давид и Тамар Абрамов</h2>
                     <img src={Profile} alt="The image was not found" />
@@ -26,10 +19,10 @@ function CourseDetails() {
                     className="background-dust" />
 
                 <div className="about-first-section">
-                    <span className='marker-sentence'>Мы - опытные преподаватели </span>
+                    Мы - опытные преподаватели
                     иврита с многолетним стажем.
                     .За годы работы мы преподавали в различных форматах:
-                    <span className='marker-sentence'>: в ирийот , группах и классах, обучали людей со всего мира, в том числе студентов из разных городов Израиля. проводили индивидуальные занятия очно и онлайн.</span>
+                    в ирийот , группах и классах, обучали людей со всего мира, в том числе студентов из разных городов Израиля. проводили индивидуальные занятия очно и онлайн.
                     тысячи довольных учеников - и все это теперь доступно вам одним кликом!
                 </div>
                 <br />
@@ -50,14 +43,14 @@ function CourseDetails() {
                             alt="The image was not found"
                             className="background-dust" />
 
-                        <span className="marker-sentence">Представьте</span> : вы свободно общаетесь с коллегами, заводите новых друзей, подтверждаете свою квалификацию , блестяще проходите собеседования и даже открываете свой бизнес - и все это на иврите!
+                        Представьте : вы свободно общаетесь с коллегами, заводите новых друзей, подтверждаете свою квалификацию , блестяще проходите собеседования и даже открываете свой бизнес - и все это на иврите!
                         <h3>С нами это не мечта, а реальность!</h3>
 
                     </div>
 
                     <div className='about-button-box'>
-                        <button className='button-63'>хочу присоединиться</button>
-                        <button className='button-63'><a href={import.meta.env.VITE_FIRST_WHATSAPP_MESSAGE} target='_blank'>больше информации</a></button>
+                        <button className='button-63'><a href='https://direct.tranzila.com/ttxabramov19/'>хочу присоединиться</a></button>
+                        <button className='button-63'><a href={import.meta.env.VITE_MAIN_WHATSAPP_MESSAGE} target='_blank'>больше информации</a></button>
                     </div>
                 </div>
             </div >

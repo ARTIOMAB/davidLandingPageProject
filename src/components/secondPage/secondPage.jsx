@@ -17,11 +17,7 @@ function ContentPage() {
                 <section className='main-section'>
                     <div className="first-section">
                         <h3 className='marker-sentence-opening-second-page'>Представляем вам революционную платформу</h3>
-
-                        для изучения настоящего, живого иврита - такого, на котором говорят на улицах Тель-Авива и в офисах Хайфы!
                     </div>
-
-                    <hr />
                     <div className="second-section">
                         <img
                             className='list-card1'

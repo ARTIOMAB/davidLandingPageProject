@@ -1,3 +1,25 @@
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-25%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(25%);
+        opacity: 1;
+    }
+}
+
 .final-container{
     width: 100%;
     height: 100%;
@@ -40,50 +62,39 @@
     width: 90%;
     margin: auto;
 }
-/* .final-list-section .list-box{
-    background-color: rgb(255, 255, 255, 10%);
-    padding: 1%;
-    border: 1px solid rgb(255, 255, 255, 8%);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0,0,0.1) 
-} */
 .final-list-section .list {
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 6vh;
-    overflow-x: hidden;
+    position: relative;
+    overflow: hidden;
+
 }
 .final-list-section .list .li-L{
     text-align: center;
-    background-color: rgb(255, 255, 255, 10%);
-    border: 1px solid rgb(255, 255, 255, 20%);
+    border: 2px solid #AF40FF;
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0,0,0.1);
-    padding: 30px;   
-    transform: translate(-20%);
-    overflow-x: hidden;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
     padding-left: 27%;
-    
+    text-shadow: 1px 1px 1px black;
+    opacity: 0;
+    animation: slideInLeft 1s forwards;
 }
 .final-list-section .list .li-R{
-    left: 20%;
     text-align: center;
-    background-color: rgb(255, 255, 255, 10%);
-    border: 1px solid rgb(255, 255, 255, 20%);
+    border: 2px solid #AF40FF;
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0,0,0.1) ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    transform: translate(20%);
-    overflow-x: hidden;
     padding-right: 28%;
-        
-}
-.final-list-section .list span{
-    font-size: 1.4rem;
+    text-shadow: 1px 1px 1px black;
+    opacity: 0;
+    animation: slideInRight 1s forwards;
+    overflow: hidden;
     position: relative;
-    line-height: 30px;
-    text-align: left;
+
 }
 
 
@@ -107,6 +118,7 @@
     margin: auto;
 }
 .final-button-container{
+height: 100%;
 width: 70%;
 margin: auto;
 display: flex;

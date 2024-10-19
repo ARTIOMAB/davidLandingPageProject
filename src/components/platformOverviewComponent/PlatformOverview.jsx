@@ -1,11 +1,15 @@
 import React from 'react'
 import "./platformOverview.css"
+import Dust from "../../assets/dust.png"
+
 
 function PlatformOverview() {
   return (
     <>
       <div className="platform-container">
-
+        <img src={Dust}
+          alt="The image was not found"
+          className="background-dust" />
         <div className="platform-first-section">
           Одной покупкой
           <span className="marker-sentence">&nbsp;вы получаете доступ к платформе с неограниченным контентом на иврите.</span>
@@ -17,7 +21,9 @@ function PlatformOverview() {
           <span className="marker-sentence">Вы не найдете никаких дополнительных оплат внутри платформы!</span>
         </div>
 
-
+        <img src={Dust}
+          alt="The image was not found"
+          className="background-dust" />
         <div className="platform-second-section">
           мы, как учителя на протяжении многих лет, слышали о болезненных и сумасшедших суммах, которые берут за обучение ивриту, мы видели наших учеников, отчаявшихся и плачущих, потому что они поняли, что их профессия обесценилась, родителей, которые хотят дать своим детям все знания, чтобы у них были успешные профессии, и вкладывают свои последние деньги!
           <br />
@@ -25,18 +31,9 @@ function PlatformOverview() {
 
           <h3> Поэтому мы создали платформу, которая объединит в себе весь материал, необходимый вам для успеха, по смешной цене!</h3>
         </div>
-
-
-        <div className="frame-section">
-          <h4>
-            Прежде чем все наши курсы были опубликованы на сайте, мы решили запустить платформу и предоставить вам доступ к ней по скидки.
-
-          </h4>
-          <h4>
-            После того, как мы начнем интенсивно добавлять больше контента и дополнительных курсов, цена вырастет.
-
-          </h4>
-        </div>
+        <img src={Dust}
+          alt="The image was not found"
+          className="background-dust" />
       </div>
     </>
   )

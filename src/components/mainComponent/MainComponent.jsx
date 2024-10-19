@@ -50,8 +50,8 @@ function MainComponent() {
                 </div>
                 {showButtons && (
                     <div className="button-section">
-                        <button className="button-63">хочу начать учиться</button>
-                        <button className="button-63">у меня есть вопросы</button>
+                        <button className="button-63"><a href="https://direct.tranzila.com/ttxabramov19" target="_blank">хочу начать учиться</a></button>
+                        <button className="button-63"><a href={import.meta.env.VITE_MAIN_WHATSAPP_MESSAGE}>у меня есть вопросы</a></button>
                     </div>
 
                 )}

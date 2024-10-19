@@ -17,15 +17,17 @@
     line-height: 32px;
     padding-bottom: 35px;
     padding-top: 15px;
-    /* background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
-    -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
     font-weight: 600;
 }   
+.first-sentence{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 .first-sentence h3{
     font-size: 2em;
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
     padding-top: 5vh;
     text-align: left;
     margin-top: 4vh;
@@ -35,14 +37,14 @@
     line-height: 26px;
     font-weight: 700;
     width: 90%;
-    margin: auto;
 }
-.galaxy-image{
+.computer-image{
     width: 100%;
-    padding-top: 10px;
     position:static;
+    border-radius: 16px;
 }
 .galley-content{
+    height:100%;
     font-size: 16px;
     padding-top: 20px;
     padding-left: 4%;
@@ -52,10 +54,12 @@
 
 }
 .second-sentence{
-font-size: 1.3rem;
-font-weight: 800;
-padding-left: 4%;
-font-size: 20px;
-color: #c2c2c2;
-padding-bottom: 6vh;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    letter-spacing: -1px;
+    line-height: 25px;
+    text-align: center;
 }
