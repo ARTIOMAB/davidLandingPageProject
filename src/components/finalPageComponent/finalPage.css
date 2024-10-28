@@ -80,7 +80,7 @@
     padding-left: 27%;
     text-shadow: 1px 1px 1px black;
     opacity: 0;
-    animation: slideInLeft 1s forwards;
+    animation: slideInLeft 2s forwards;
 }
 .final-list-section .list .li-R{
     text-align: center;
@@ -91,10 +91,7 @@
     padding-right: 28%;
     text-shadow: 1px 1px 1px black;
     opacity: 0;
-    animation: slideInRight 1s forwards;
-    overflow: hidden;
-    position: relative;
-
+    animation: slideInRight 2s forwards;
 }
 
 

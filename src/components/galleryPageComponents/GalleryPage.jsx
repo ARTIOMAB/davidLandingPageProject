@@ -40,9 +40,6 @@ function galleryPage() {
                     <img src={Dust}
                         alt="The image was not found"
                         className="background-dust" />
-                    <div className="second-sentence">
-                        <span className='marker-sentence'>С нами это не мечта, а реальность!</span>
-                    </div>
                 </div>
             </div>
         </>

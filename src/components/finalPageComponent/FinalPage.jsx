@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import "./finalPage.css"
 import Dust from "../../assets/dust.png"
 
@@ -46,6 +46,7 @@ function FinalPage() {
 
 
                 <div id='finalPage-list' className="final-list-section">
+
                     <h2>По одной покупке вы получаете</h2>
 
                     <div className='list'>
@@ -89,7 +90,18 @@ function FinalPage() {
                         <div className={`li-R`}>
                             <span>Много рабочих тетрадей, каждая из которых состоит более чем из 50 страниц</span>
                         </div>
-
+                        <div className={`li-L`}>
+                            <span>Небольшая часть изучаемых предметов: времена, перелеты, фильмы и сериалы, аренда квартиры, рестораны и кафе, подготовка к армии</span>
+                        </div>
+                        <div className={`li-R`}>
+                            <span>Разговорный курс иврита в WhatsApp</span>
+                        </div>
+                        <div className={`li-L`}>
+                            <span>Работаем с искусственным интеллектом</span>
+                        </div>
+                        <div className={`li-R`}>
+                            <span>Курс обучения акценту с профессионалом</span>
+                        </div>
                     </div>
 
                     <img src={Dust}
