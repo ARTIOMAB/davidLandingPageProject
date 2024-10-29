@@ -2,7 +2,6 @@
     width: 100%;
     background: linear-gradient(to bottom, var(--Black-BG, #201731), black);
     height: 100%;
-    box-shadow: #201731;
 }
 .main-section{
     width: 90%;
@@ -51,4 +50,18 @@ gap: 5vh;
     gap: 3vh;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .second-section{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .second-section img{
+        width: 20%;
+    }
 }

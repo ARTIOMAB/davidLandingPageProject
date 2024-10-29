@@ -121,4 +121,5 @@ margin: auto;
 display: flex;
 flex-direction: column;
 gap: 2vh;
+padding-bottom: 10vh;
 }
