@@ -66,7 +66,6 @@
     text-align: center;
     position: relative;
     line-height: 60px;
-    text-shadow: #201731;
     z-index: 1;
     
   }
@@ -114,24 +113,45 @@
 
   }
 
+
+  
   @media (min-width: 768px) {
     .main-page-container { 
       width: 100%;
+      height: auto;
     }
     .onboarding { 
       width: 100%;
       margin: 0;
-
+    }
+    .header{
+      height: 20%;
+      justify-content: left;
+      padding-left: 8vw;
+    }
+    .header h1 {
+      padding-top: 10vh;
     }
     .heroImage{
-      display: none;
+      width: 60vw;
+      height: auto;
+      margin-left: 40%;
     }
     .content{
-      margin-top: 10vh;
-      align-items: center;
+      margin-top: 3vh;
+      width: 70%;
+      padding-left: 6vw;
+    }
+    .description{
+      width: 50%;
+      margin-top: 5vh;
     }
     .button-section{
       padding-bottom: 0px;
+      justify-content: flex-start;
+      margin-top: 10vh;
+      width: 80%;
     }
 
   }
+  

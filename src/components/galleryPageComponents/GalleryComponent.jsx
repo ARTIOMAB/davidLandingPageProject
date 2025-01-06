@@ -1,4 +1,3 @@
-import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.css';
 import "./galleryComponent.css"
@@ -13,19 +12,6 @@ import Client8 from "../../assets/client8.jpg"
 
 
 function GalleryComponent() {
-
-    const imageArr = [
-        Client1,
-        Client2,
-        Client3,
-        Client4,
-        Client5,
-        Client6,
-        Client7,
-        Client8,
-
-    ]
-
 
     return (
         <>

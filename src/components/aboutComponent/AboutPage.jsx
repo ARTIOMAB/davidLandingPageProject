@@ -1,4 +1,3 @@
-import React from 'react'
 import "./aboutPage.css"
 import Profile from "../../assets/tamarProfile2.jpg"
 import Dust from "../../assets/dust.png"

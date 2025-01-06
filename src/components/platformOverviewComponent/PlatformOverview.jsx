@@ -1,4 +1,3 @@
-import React from 'react'
 import "./platformOverview.css"
 import Dust from "../../assets/dust.png"
 

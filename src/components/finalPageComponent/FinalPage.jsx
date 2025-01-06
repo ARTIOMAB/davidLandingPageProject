@@ -1,4 +1,3 @@
-import React from 'react'
 import "./finalPage.css"
 import Dust from "../../assets/dust.png"
 

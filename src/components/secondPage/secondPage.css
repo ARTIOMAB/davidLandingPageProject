@@ -38,8 +38,6 @@ gap: 5vh;
     font-weight: bolder;background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
 }
 
 .buttons-container{
@@ -53,15 +51,26 @@ gap: 5vh;
 }
 
 @media (min-width: 768px) {
+    .second-page-container{
+        height: auto;
+    }
+    .first-section{
+        padding-top: 10vh;
+    }
     .second-section{
-        width: 100%;
+        width: 90%;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
-        justify-content: center;
+        justify-content: space-between;
+        margin: auto;
     }
     .second-section img{
         width: 20%;
+    }
+    .buttons-container{
+        width: 15%;
+        padding-bottom: 10vh;
     }
 }

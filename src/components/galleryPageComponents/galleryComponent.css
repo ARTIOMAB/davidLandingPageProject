@@ -9,3 +9,19 @@
     object-fit: cover;
     border-radius: 16px;
 }
+@media (min-width: 768px) {
+    .bootstrap-carousel-container{
+        width: 30vw;
+        height: auto;
+        position: relative;
+    }
+    .carousel-item{
+        height: 100vh;
+        object-fit: fill;
+    }
+    .bootstrap-carousel-container img {
+        height: 100%;
+        object-fit: fill;
+        border-radius: 16px;
+    }
+}

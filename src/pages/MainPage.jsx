@@ -1,4 +1,3 @@
-import React from 'react'
 import "./mainPage.css"
 import MainComponent from '../components/mainComponent/MainComponent'
 import SecondPage from '../components/secondPage/secondPage'

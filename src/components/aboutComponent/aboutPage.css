@@ -68,7 +68,6 @@
     font-weight: 600;
     margin-top: 5vh;
 }
-
 .about-button-box{
     padding-top: 4%;
     width: 60%;
@@ -77,6 +76,36 @@
     flex-direction: column;
     gap: 2vh;
     
+}
+@media (min-width: 768px) {
+    .about-container{
+        height: auto;
+    }
+    .heading-image-profile-container img {
+        width: 30vw;
+        height: 70vh;
+    }
+    .about-first-section{
+        padding-top: 5vh;
+        width:80%;
+        margin: auto;
+    }
+    .about-second-section{
+        width:80%;
+        margin: auto;
+    }
+    .about-button-section-header{
+        width:80%;
+        margin: auto;
+    }
+    .about-button-section-header h3{
+        padding-bottom:3vh;
+        padding-top: 8vh;
+    }
+    .about-button-box{
+        width: 20%;   
+    }
+
 }
 
 

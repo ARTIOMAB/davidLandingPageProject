@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .first-sentence h3{
     font-size: 2em;
@@ -51,7 +50,6 @@
     padding-bottom: 20px;
     font: 400 16px/21px ABeeZee, -apple-system, Roboto, Helvetica, sans-serif;
     color: #c2c2c2;
-
 }
 .second-sentence{
     width: 100%;
@@ -62,4 +60,29 @@
     letter-spacing: -1px;
     line-height: 25px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .gallery-page-container {
+        padding-top: 7vh;
+        height: auto;
+    }
+    .first-sentence{
+        width: 90%;
+        margin: auto;
+        padding-top: 4vh;
+    }
+    .computer-image{
+        width: 60%;
+        position:static;
+        border-radius: 16px;
+        padding-top: 8vh;
+
+    }
+    .galley-content{
+        width: 80%;
+        margin: auto;
+        padding-top: 10vh;
+    }
+    
 }

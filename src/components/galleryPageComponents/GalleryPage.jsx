@@ -1,4 +1,3 @@
-import React from 'react'
 import "./galleryPage.css"
 import GalleryComponent from './GalleryComponent'
 import computerAnimation from "../../assets/computerAnimation.jpg"
