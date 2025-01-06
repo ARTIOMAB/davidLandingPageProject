@@ -1,5 +1,5 @@
 .about-container{
-    padding-top: 10vh;
+    padding-top: 8%;
     width: 90%;
     margin: auto;
 }
@@ -82,8 +82,8 @@
         height: auto;
     }
     .heading-image-profile-container img {
-        width: 30vw;
-        height: 70vh;
+        width: 50%;
+        height: 70%;
     }
     .about-first-section{
         padding-top: 5vh;
@@ -99,11 +99,13 @@
         margin: auto;
     }
     .about-button-section-header h3{
-        padding-bottom:3vh;
-        padding-top: 8vh;
+        padding-bottom:3%;
+        padding-top: 5%;
     }
     .about-button-box{
-        width: 20%;   
+        width: 20%;  
+        position: relative;
+        z-index: 1; 
     }
 
 }

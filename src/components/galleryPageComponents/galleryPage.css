@@ -2,13 +2,10 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, #000000 0%, #0A0118 80%);
-
-    
 }
 .gallery-page-child-container{
     width: 90%;
     margin: auto;
-
 }
 .gallery-container h3{
     font-size: 1.7em;
@@ -64,25 +61,42 @@
 
 @media (min-width: 768px) {
     .gallery-page-container {
-        padding-top: 7vh;
         height: auto;
+    }
+    .background-dust{
+        width: 100%;
+        height: 100%;
     }
     .first-sentence{
         width: 90%;
         margin: auto;
         padding-top: 4vh;
     }
+    .first-sentence h3{
+        font-size: 1.9rem;
+        padding-bottom: 3%;
+        padding-top: 2%;
+        text-align: left;
+        margin-top: 4vh;
+        background: -webkit-linear-gradient(#AF40FF, #5B42F3 ,#00DDEB );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 26px;
+        font-weight: 700;
+        width: 90%;
+    }
     .computer-image{
         width: 60%;
         position:static;
         border-radius: 16px;
-        padding-top: 8vh;
+        margin-top: 4%;
 
     }
     .galley-content{
         width: 80%;
         margin: auto;
-        padding-top: 10vh;
+        padding-top: 4%;
+        padding-bottom: 0;
     }
     
 }

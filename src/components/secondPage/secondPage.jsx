@@ -35,7 +35,6 @@ function ContentPage() {
                             className='list-card6'
                             src={Card6} alt="The image was not found" />
                     </div>
-                    <hr />
                     <div className="buttons-container">
                         <button className="button-63">
                             <a href='#finalPage-list' >Что я получу на курсе?</a>

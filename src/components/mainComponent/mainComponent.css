@@ -122,35 +122,47 @@
     }
     .onboarding { 
       width: 100%;
-      margin: 0;
+      height: 600px;
+      object-position: top;
     }
     .header{
-      height: 20%;
+      height: 25%;
       justify-content: left;
-      padding-left: 8vw;
+      padding-left: 15%;
     }
     .header h1 {
-      padding-top: 10vh;
+      padding-top: 7%;
+    }
+    .heroSection {
+      width: 100vw;
+      height: 100%;
     }
     .heroImage{
-      width: 60vw;
+      width: 40vw;
       height: auto;
-      margin-left: 40%;
+      margin-left: 60%;
+
     }
     .content{
-      margin-top: 3vh;
-      width: 70%;
-      padding-left: 6vw;
+      margin-top: 4%;
+      width: 90%;
+      padding-left: 6%;
+    }
+    .subtitle {
+      padding-top: 2%;
+      padding-left: 10%;
+      font-size: 1.9rem;
     }
     .description{
       width: 50%;
-      margin-top: 5vh;
+      margin-top: 2%;
+      padding-left: 10%;
     }
     .button-section{
       padding-bottom: 0px;
       justify-content: flex-start;
-      margin-top: 10vh;
-      width: 80%;
+      margin-top: 5%;
+      width: 68%;
     }
 
   }

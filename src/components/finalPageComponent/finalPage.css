@@ -52,7 +52,6 @@
     width: 95%;
     margin: auto;
 }
-
 .final-list-section h2{
     font-size: 2em;
     text-align: left;
@@ -69,7 +68,6 @@
     gap: 6vh;
     position: relative;
     overflow: hidden;
-
 }
 .final-list-section .list .li-L{
     text-align: center;
@@ -93,8 +91,6 @@
     opacity: 0;
     animation: slideInRight 2s forwards;
 }
-
-
 .final-buttons-section{
     font-size: 1.2rem;
     width: 90%;
@@ -115,68 +111,82 @@
     margin: auto;
 }
 .final-button-container{
-height: 100%;
-width: 70%;
-margin: auto;
-display: flex;
-flex-direction: column;
-gap: 2vh;
-padding-bottom: 10vh;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-bottom: 10vh;
 }
 
-@media (min-width: 1024px) {
-    @keyframes slideInLeft {
-        0% {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(-25%);
-            opacity: 1;
-        }
+@media (min-width: 768px) {
+    .final-container {
+        height: auto;
     }
-    
-    @keyframes slideInRight {
-        0% {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(70%);
-            opacity: 1;
-        }
+    .background-dust{
+        z-index: 0;
     }
-    .final-container{
-        height: auto
-    }
-    .final-opening-section{
-        width: 73%;
+    .final-opening-section {
+        width: 65%;
         margin: auto;
     }
-    .final-second-section{
-        width: 70%;
+    .final-opening-section h2 {
+        width: 75%;
+        padding-bottom: 6%;
+    }
+
+    .final-second-section {
+        width: 65%;
         margin: auto;
     }
-    .final-list-section h2{
-        width: 70%;
-        padding-top: 5vh;
-        padding-bottom: 4vh;
+
+    .final-second-section h3 {
+        width: 100%;
+        margin: 0px;
+        padding-bottom: 3%;
+        padding-top: 2%;
     }
-    .final-list-section .list .li-L{
-        width: 65vw;
+    .final-list-section {
+        padding: 2%;
     }
-    .final-list-section .list .li-R{
-        width: 65vw;
+    .final-list-section h2 {
+        width: 65%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        margin: auto;
+        text-align: center;
+        font-size: 2.4rem;
     }
-    .final-buttons-section{
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+
+    .final-list-section .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3%;
+        position: static;
+        overflow: visible;
+    }
+
+    .final-list-section .list .li-L, 
+    .final-list-section .list .li-R {
+        animation: none;
+        opacity: 1; 
+        transform: none; 
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .final-buttons-section {
+        padding-top: 10%;
+        padding-bottom: 8%;
         width: 80%;
         margin: auto;
     }
-    .final-button-container{
+    .final-button-container {
         width: 20%;
+        position: relative;
+        z-index: 1;
     }
-
-    
 }

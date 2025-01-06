@@ -51,14 +51,26 @@ gap: 5vh;
 }
 
 @media (min-width: 768px) {
+    .main-section{
+        width: 100%;
+    }
     .second-page-container{
         height: auto;
     }
     .first-section{
         padding-top: 10vh;
     }
+    .marker-sentence-opening-second-page{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 700;
+        color: whitesmoke;
+        letter-spacing: -1px;
+        padding-bottom: 4%;
+        padding-top: 2%;
+    }
     .second-section{
-        width: 90%;
+        width: 95%;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
@@ -71,6 +83,6 @@ gap: 5vh;
     }
     .buttons-container{
         width: 15%;
-        padding-bottom: 10vh;
+        padding-bottom: 7%;
     }
 }
