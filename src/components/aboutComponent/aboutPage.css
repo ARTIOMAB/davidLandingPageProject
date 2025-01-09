@@ -79,6 +79,7 @@
 }
 @media (min-width: 768px) {
     .about-container{
+        padding-top: 5%;
         height: auto;
     }
     .heading-image-profile-container img {
@@ -103,8 +104,11 @@
         padding-top: 5%;
     }
     .about-button-box{
-        width: 20%;  
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         position: relative;
+        gap: 5%;
         z-index: 1; 
     }
 

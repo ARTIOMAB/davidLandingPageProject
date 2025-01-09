@@ -43,4 +43,8 @@ a{
     text-decoration: none;
     color:#FFFFFF
 }
-  
+/* @media (min-width: 768px) {
+    #root{
+        overflow-y: hidden;
+    }
+} */

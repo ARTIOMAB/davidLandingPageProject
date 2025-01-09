@@ -1,11 +1,25 @@
 import "./finalPage.css"
 import Dust from "../../assets/dust.png"
-
+import { useInView } from "react-intersection-observer"
+import { useEffect } from "react";
 
 
 
 function FinalPage() {
 
+    const { ref, inView } = useInView({
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
+    useEffect(() => {
+        if (inView) {
+            console.log("The section has just entered the viewport!");
+
+        } else {
+            console.log(inView)
+        }
+    }, [inView])
     return (
         <>
             <div className="final-container">
@@ -44,64 +58,67 @@ function FinalPage() {
                     className="background-dust" />
 
 
-                <div id='finalPage-list' className="final-list-section">
+                <div id='finalPage-list' className="final-list-section" ref={ref}>
 
                     <h2>По одной покупке вы получаете</h2>
 
-                    <div className='list'>
-                        <div className={`li-R`}>
-                            <span>Неограниченный доступ к обширной базе учебных материалов</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Все материалы с транскрипцией русскими буквами</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Курсы отработки скорости речи и понимания иврита</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Групповые онлайн-уроки с учителем</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Групповая онлайн-практика с учителем</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Изучение иврита профессиональных специальностей</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Полные подготовки учеников к экзаменом и к багрутом</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Доступ к закрытой группе для вопросов и общения с преподавателями</span>
-                        </div>
+                    {inView && (
+                        <div className='list'>
+                            <div className={`li-R`}>
+                                <span>Неограниченный доступ к обширной базе учебных материалов</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Все материалы с транскрипцией русскими буквами</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Курсы отработки скорости речи и понимания иврита</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Групповые онлайн-уроки с учителем</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Групповая онлайн-практика с учителем</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Изучение иврита профессиональных специальностей</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Полные подготовки учеников к экзаменом и к багрутом</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Доступ к закрытой группе для вопросов и общения с преподавателями</span>
+                            </div>
 
-                        <div className={`li-R`}>
-                            <span>Курсы разговорного иврита на каждый день с различными темами, такими как: банк, почта, покупки, подготовка к собеседованию, сленг и еще</span>
+                            <div className={`li-R`}>
+                                <span>Курсы разговорного иврита на каждый день с различными темами, такими как: банк, почта, покупки, подготовка к собеседованию, сленг и еще</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Специальные тренировки для продвинутых</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Подкасты с профессионалами, которые помогут вам практиковать иврит и откроют для вас новые карьерные идеи</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Интенсивная практика и домашние задания с проверкой и экзамены</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Много рабочих тетрадей, каждая из которых состоит более чем из 50 страниц</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Небольшая часть изучаемых предметов: времена, перелеты, фильмы и сериалы, аренда квартиры, рестораны и кафе, подготовка к армии</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Разговорный курс иврита в WhatsApp</span>
+                            </div>
+                            <div className={`li-L`}>
+                                <span>Работаем с искусственным интеллектом</span>
+                            </div>
+                            <div className={`li-R`}>
+                                <span>Курс обучения акценту с профессионалом</span>
+                            </div>
                         </div>
-                        <div className={`li-L`}>
-                            <span>Специальные тренировки для продвинутых</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Подкасты с профессионалами, которые помогут вам практиковать иврит и откроют для вас новые карьерные идеи</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Интенсивная практика и домашние задания с проверкой и экзамены</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Много рабочих тетрадей, каждая из которых состоит более чем из 50 страниц</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Небольшая часть изучаемых предметов: времена, перелеты, фильмы и сериалы, аренда квартиры, рестораны и кафе, подготовка к армии</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Разговорный курс иврита в WhatsApp</span>
-                        </div>
-                        <div className={`li-L`}>
-                            <span>Работаем с искусственным интеллектом</span>
-                        </div>
-                        <div className={`li-R`}>
-                            <span>Курс обучения акценту с профессионалом</span>
-                        </div>
-                    </div>
+                    )}
+
 
                     <img src={Dust}
                         alt="The image was not found"

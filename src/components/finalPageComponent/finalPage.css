@@ -39,6 +39,7 @@
 .final-second-section{
     padding-bottom: 4vh;
     width: 90%;
+    height: 100%;
     margin: auto;
 }
  .final-second-section h3{
@@ -66,8 +67,9 @@
     display: flex;
     flex-direction: column;
     gap: 6vh;
-    position: relative;
+    position: relative;   
     overflow: hidden;
+    height: 100%;
 }
 .final-list-section .list .li-L{
     text-align: center;
@@ -92,6 +94,7 @@
     animation: slideInRight 2s forwards;
 }
 .final-buttons-section{
+    height: 100%;
     font-size: 1.2rem;
     width: 90%;
     margin: auto;
@@ -126,6 +129,7 @@
     }
     .background-dust{
         z-index: 0;
+        height: 90%;
     }
     .final-opening-section {
         width: 65%;
@@ -148,7 +152,9 @@
         padding-top: 2%;
     }
     .final-list-section {
-        padding: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
     }
     .final-list-section h2 {
         width: 65%;
@@ -163,8 +169,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 3%;
-        position: static;
-        overflow: visible;
+        overflow: initial;
+        
     }
 
     .final-list-section .list .li-L, 
@@ -185,7 +191,10 @@
         margin: auto;
     }
     .final-button-container {
-        width: 20%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
         position: relative;
         z-index: 1;
     }
